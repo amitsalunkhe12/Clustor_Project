@@ -7,15 +7,26 @@ Dataset Overview
 The dataset contains transactional records from an online retail store. Key attributes include:
 
 InvoiceNo: Unique identifier for each transaction.
+
 StockCode & Description: Product details.
+
 Quantity & UnitPrice: Transaction values.
+
 InvoiceDate: Date of purchase.
+
 CustomerID: Unique customer identifier.
+
 Country: Location of the customer.
+
 Data Processing & RFM Analysis
+
 Data Cleaning: Handling missing values, removing duplicates, and treating outliers.
-RFM Analysis: Customers are evaluated based on:
+RFM Analysis: Customers are evaluated based on
+
 Recency: How recently a customer made a purchase.
+
 Frequency: How often a customer makes purchases.
+
 Monetary: The total amount a customer has spent.
+
 Feature Engineering: Computing RFM scores and scaling data for clustering.
